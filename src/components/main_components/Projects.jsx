@@ -1,5 +1,5 @@
 import ProjectTemplate from "./ProjectTemplate";
-// import spaceHolderImage from "../../../public/favicon-32x32.png";
+
 
 const myProjects = [
   {
@@ -9,12 +9,12 @@ const myProjects = [
     tech: ["Vite.js", "React", "Bootstrap", "TailWind"],
     image: '/favicon-32x32.png',
     link: "",
-    repoLink: "",
+    repoLink: "https://github.com/annc4st/myPF",
   },
   {
     id: 2,
     title: "Flashcard mobile app",
-    description: `A full-stack Flashcard revision application. The app is designed to assist students in their studies by allowing them to upload custom questions and answers for revision. (The project was developed by a team of six Northcoders Bootcamp students)`,
+    description: "A full-stack Flashcard revision application. The app is designed to assist students in their studies by allowing them to upload custom questions and answers for revision. (The project was developed by a team of six Northcoders Bootcamp students)",
     tech: [
       "React Native",
       "Mobile App",
