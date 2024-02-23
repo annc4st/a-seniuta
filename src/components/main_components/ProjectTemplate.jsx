@@ -6,7 +6,7 @@ const ProjectTemplate = ({project}) => {
     return (
         <>
         <Card className="max-w-md border border-gray-200 rounded-lg shadow">
-        <img src={project.image} alt={project.title} />
+        <img className="grayscale hover:grayscale-0" src={project.image} alt={project.title} />
         
          <h4 className="text-2xl font-bold tracking-tight mx-auto my-2 mb-2 dark:text-white">{project.title}</h4>
         <p className="font-normal text-gray-700 dark:text-gray-400">{project.description}</p>

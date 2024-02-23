@@ -36,12 +36,12 @@ const TechStack = () => {
         <div className="w-2/3 flex flex-wrap gap-3 mb-2">
           {technologies.map((tech) => {
             return (
-              <button className="text-md bg-indigo-200 hover:bg-blue-800 rounded-lg p-2" key = {tech}>{tech}</button>
+              <button className="text-md bg-indigo-200 hover:bg-blue-600 rounded-lg p-2" key = {tech}>{tech}</button>
             )
             })
           }
         </div>
-        <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/>
+        {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}
     </section>
     )
 

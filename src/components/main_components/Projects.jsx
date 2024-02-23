@@ -7,7 +7,7 @@ const myProjects = [
     title: "Portfolio",
     description: "This app is built with Vite.js, React",
     tech: ["Vite.js", "React", "Bootstrap", "TailWind"],
-    image: '/favicon-32x32.png',
+    image: '/pf-page.png',
     link: "",
     repoLink: "https://github.com/annc4st/myPF",
   },
@@ -26,7 +26,7 @@ const myProjects = [
       "Supertest",
       "TDD",
     ],
-    image: '/favicon-32x32.png',
+    image: '/cards_project.png',
     repoLink: "https://github.com/annc4st/flash-cards-fe",
   },
   {
@@ -45,7 +45,7 @@ const myProjects = [
       "HTML",
       "TDD"
     ],
-    image: '/favicon-32x32.png',
+    image: '/nc-news-page.png',
     link: "https://annas-nc-news.netlify.app/",
     repoLink: "https://github.com/annc4st/fe-nc-news",
   },
@@ -77,7 +77,7 @@ const Projects = () => {
             <ProjectTemplate key={project.id} project={project} />
           ))}
         </div>
-        <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/>
+        {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}
       </div>
      
     </>

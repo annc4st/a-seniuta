@@ -27,7 +27,7 @@ const About = () => {
                 I am seeking a role that can progress my skill set in both JavaScript and Python programming.
                 </p>
             </article>
-            <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/>
+            {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}
         </section>
 
         </>
