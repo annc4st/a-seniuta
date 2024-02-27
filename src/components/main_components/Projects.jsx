@@ -71,7 +71,7 @@ const Projects = () => {
 
         <div
           id="projects"
-          className="grid grid-cols-1 gap-4 mt-10 md:grid-cols-2"
+          className="grid grid-cols-1 gap-4 mt-10 lg:grid-cols-2"
         >
           {myProjects.map((project) => (
             <ProjectTemplate key={project.id} project={project} />

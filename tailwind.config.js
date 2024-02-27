@@ -7,9 +7,10 @@ export default {
   theme: {
     screens: {
       sm: '480px',
-      // => @media (min-width: 640px) { ... }
-      md: '768px',
+      // => @media (min-width: 480px) { ... }
+      md: '856px',
       // => @media (min-width: 768px) { ... }
+      
       lg: '1024px',
        // => @media (min-width: 976px) { ... }
       xl: '1280px',

@@ -11,7 +11,7 @@ const About = () => {
             <img className="rounded-md w-auto h-96" src="./karsten.jpg" alt="profile-picture-of-wesite owner" />
             </div>
 
-            <article className="w-2/3">
+            <article className="">
             <p className="mb-2">
                 Hi, I am Anna! </p>
                 <p className="mb-2">

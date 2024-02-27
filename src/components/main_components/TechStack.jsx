@@ -29,11 +29,11 @@ const TechStack = () => {
     return (
         <section id="technologies" className="flex flex-col justify-center p-6 items-center mb-3">
         <h2 className="text-3xl font-medium mx-auto my-4 text-center">TechStack</h2>
-        <p className="w-2/3 mb-3">
+        <p className="mb-3">
         I have learnt a wide range of technical skills through continuous self-learning, coding courses, Northcoders coding bootcamp and practicing on my own. 
         </p>
 
-        <div className="w-2/3 flex flex-wrap gap-3 mb-2">
+        <div className="flex flex-wrap gap-3 mb-2">
           {technologies.map((tech) => {
             return (
               <button className="text-md bg-indigo-200 hover:bg-blue-600 rounded-lg p-2" key = {tech}>{tech}</button>
