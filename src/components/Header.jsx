@@ -11,8 +11,9 @@ const Header = () => {
               href="#"
               className="flex items-center space-x-3 mr-2"
             >
+            <img src="ac-logo-small.png" className="h-8 w-8"/>
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                🐧 Anna's Page
+                Anna's Page
               </span>
             </a>
 

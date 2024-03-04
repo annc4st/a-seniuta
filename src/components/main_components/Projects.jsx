@@ -63,14 +63,14 @@ const myProjects = [
 const Projects = () => {
   return (
     <>
-      <div id="projets" className="flex flex-col justify-center p-6 items-center mb-3"
+      <div id="projects" className="flex flex-col justify-center p-6 items-center mb-3"
         >
         <h2 className="text-3xl font-medium mx-auto my-4 text-center">
           My Projects
         </h2>
 
         <div
-          id="projects"
+          // id="projects"
           className="grid grid-cols-1 gap-4 mt-10 lg:grid-cols-2"
         >
           {myProjects.map((project) => (

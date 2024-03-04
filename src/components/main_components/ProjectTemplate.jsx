@@ -15,7 +15,7 @@ const ProjectTemplate = ({project}) => {
         {(project.link) ?
         (<a href={project.link}  target='_blanc'>
        
-        <Button className="rounded-lg bg-indigo-400 p-2 text-white font-bold">
+        <Button className="rounded-lg bg-indigo-300 p-2 text-white font-bold">
         Demo Link
         <svg className="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path

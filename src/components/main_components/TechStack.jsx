@@ -1,3 +1,4 @@
+// import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 const technologies = [
     'JavaScript',
@@ -36,7 +37,7 @@ const TechStack = () => {
         <div className="flex flex-wrap gap-3 mb-2">
           {technologies.map((tech) => {
             return (
-              <button className="text-md bg-indigo-200 hover:bg-blue-600 rounded-lg p-2" key = {tech}>{tech}</button>
+              <button className="text-md text-white font-medium bg-indigo-400 hover:bg-indigo-800 rounded-lg p-2" key = {tech}>{tech}</button>
             )
             })
           }
