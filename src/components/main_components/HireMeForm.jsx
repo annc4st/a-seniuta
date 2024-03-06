@@ -26,11 +26,8 @@ const HireMeForm = () => {
         .catch((error) => alert(error));
     };
     return (
-        <>
-            <form
-          netlify
-          name="contact"
-          className="flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <>
+        <div className=" md:py-8 mt-8 md:mt-0">
           <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
@@ -39,6 +36,12 @@ const HireMeForm = () => {
           Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the form or email above.<br />
           You can send me a message via this form!
           </p>
+        </div>
+            <form
+          netlify
+          name="contact"
+          className="flex flex-col md:ml-auto w-full mt-8 md:mt-0">
+          
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7">
               Name

@@ -3,11 +3,12 @@ const About = () => {
     return (
         <>     
         <section id="about" className="flex flex-col justify-center p-6 items-center gap-8 ">
-        <div className="my-10">
+        <div className="mt-10">
             <h1 className="text-4xl font-bold mx-auto text-center">Anna Seniuta</h1>
-            </div>
-            <p>Full Stack Developer</p>
+            <p className="text-base font-medium mx-auto mt-4 text-center">Full Stack Developer</p>
 
+            </div>
+           
             {/* LinkedIN and GITHUB btns */}
 
             <div className='flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 gap-4'>

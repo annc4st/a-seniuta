@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="md:w-2/3 sm:w-full mx-auto">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4 ml-6">
             <a
               href="#"
               className="flex items-center space-x-3 mr-2"
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
 
             <div
-              className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              className="items-end justify-between hidden w-full md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
               <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
@@ -95,42 +95,5 @@ const Header = () => {
   );
 };
 
-{
-  /* 
-    <nav id="header"
-      classNameName="w-2/3 bg-slate-50 sticky top-0 z-10 start-10 ">
-       <div classNameName='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
-        
-          <a classNameName="flex items-center space-x-3 rtl:space-x-reverse" href="#">
-          <span classNameName="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"> 🐧 Anna's Page
-          </span>
-          </a>
-       
-        </div>
-        <div classNameName="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse" >
-          <button
-            id="mobile-open-button"
-            classNameName ="text-3xl sm:hidden focus:outline-none"
-          >
-            &#9776;
-          </button>
-          <nav classNameName ="hidden sm:block space-x-8 text-lg" aria-label="main">
-            <a classNameName ="hover:opacity-90" href="#about">
-              About
-            </a>
-            <a classNameName ="hover:opacity-90" href="#technologies">
-              Techstack
-            </a>
-            <a classNameName ="hover:opacity-90" href="#projects">
-              Projects
-            </a>
-           
-            <a classNameName ="hover:opacity-90" href="#contact">
-              Contact Me
-            </a>
-          </nav>
-        </div>
-      {/* </section> */
-}
 
 export default Header;

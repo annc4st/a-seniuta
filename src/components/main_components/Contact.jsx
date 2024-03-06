@@ -1,14 +1,19 @@
-import HireMeForm from './HireMeForm';
+// import HireMeForm from './HireMeForm';
 
 
 const Contact = () => {
  
 
   return (
-    <div id="contact" className="relative">
+    <div id="contact" className="relative mx-2 mt-8 mb-16">
       <h2 className="text-3xl font-medium mx-auto my-4 text-center">
         Contact Me
       </h2>
+      <p className="leading-relaxed mb-5">
+          Thank you for taking the time to look over my portfolio website. <br/>
+          Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the form or email above.<br />
+    
+          </p>
 
       <div className="container mx-auto flex sm:flex-nowrap flex-wrap items-center gap-8 relative">
         <iframe
@@ -26,36 +31,29 @@ const Contact = () => {
 
         <div
           id="address-actual"
-          className=" md:w-1/2 m-2 bg-gray-800 rounded-lg overflow-hidden flex items-end justify-start absolute bottom-0 left-0 right-0"
+          className=" md:w-1/3 m-2 bg-gray-800 rounded-lg overflow-hidden flex items-end justify-start absolute bottom-0 left-0 right-0"
         >
-          {/* <div className="bg-gray-700 relative flex flex-wrap py-2 rounded shadow-md"> */}
-            <div className="lg:w-1/2 px-2">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mb-2">
-                ADDRESS
-              </h2>
-              <p className="mt-1 text-slate-100">
-                Stockport <br />
-                Greater Manchester
-              </p>
-            </div>
-            <div className="lg:w-1/2 px-2 mt-2">
+      
+            <div className="px-2 mt-2">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a href="mailto:annaseniuta@gmail.com" className="text-indigo-400 leading-relaxed">
                 annaseniuta@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed text-slate-100">123-456-7890</p>
+              <a href="tel:+447419810061" className="leading-relaxed text-slate-100">
+              +447419810061
+              </a>
             </div>
          
 
         </div>
         </div>
 
-        <HireMeForm />
+        {/* <HireMeForm /> */}
       </div>
 
   );

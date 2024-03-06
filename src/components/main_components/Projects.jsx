@@ -43,7 +43,8 @@ const myProjects = [
       "React",
       "CSS",
       "HTML",
-      "TDD"
+      "TDD",
+      "Vue.js"
     ],
     image: '/nc-news-page.png',
     link: "https://annas-nc-news.netlify.app/",
@@ -63,21 +64,18 @@ const myProjects = [
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="flex flex-col justify-center p-6 items-center mb-3"
-        >
-        <h2 className="text-3xl font-medium mx-auto my-4 text-center">
+      <div id="projects" className="flex flex-col justify-center items-center mb-16">
+        <h2 className="text-3xl font-medium mx-auto text-center">
           My Projects
         </h2>
 
         <div
-          // id="projects"
           className="grid grid-cols-1 gap-4 mt-10 lg:grid-cols-2"
         >
           {myProjects.map((project) => (
             <ProjectTemplate key={project.id} project={project} />
           ))}
         </div>
-        {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}
       </div>
      
     </>
