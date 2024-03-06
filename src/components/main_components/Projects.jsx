@@ -43,8 +43,7 @@ const myProjects = [
       "React",
       "CSS",
       "HTML",
-      "TDD",
-      "Vue.js"
+      "TDD"
     ],
     image: '/nc-news-page.png',
     link: "https://annas-nc-news.netlify.app/",

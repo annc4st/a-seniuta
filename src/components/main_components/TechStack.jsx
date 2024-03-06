@@ -24,7 +24,8 @@ const technologies = [
     'Jira',
     'Figma',
     'Python', 
-    'Django'
+    'Django',
+    'Vue.js'
   ];
 const TechStack = () => {
     return (
