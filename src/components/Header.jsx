@@ -6,10 +6,10 @@ const Header = () => {
     <div>
       <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="md:w-2/3 sm:w-full mx-auto">
-          <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4 ml-6">
+          <div className="max-w-screen-xl flex flex-wrap items-center justify-center p-4 ml-6">
             <a
               href="#"
-              className="flex items-center space-x-3 mr-2"
+              className="flex items-center space-x-3 mr-6"
             >
             <img src="ac-logo-small.png" className="h-8 w-8"/>
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">

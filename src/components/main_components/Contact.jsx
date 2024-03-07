@@ -1,4 +1,5 @@
 // import HireMeForm from './HireMeForm';
+import SectionTitle from "./SectionTitle";
 
 
 const Contact = () => {
@@ -6,9 +7,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="relative mx-2 mt-8 mb-16">
-      <h2 className="text-3xl font-medium mx-auto my-4 text-center">
-        Contact Me
-      </h2>
+      <SectionTitle title="Contact Me" />
       <p className="leading-relaxed mb-5">
           Thank you for taking the time to look over my portfolio website. <br/>
           Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the form or email above.<br />
