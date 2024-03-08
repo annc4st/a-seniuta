@@ -4,8 +4,8 @@ import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: '/a-seniuta/',
-  base: process.env.VITE_BASE || '/',
+  base: '/a-seniuta/',
+  // base: process.env.VITE_BASE || '/',
   plugins: [react()],
   css: {
     postcss: {
