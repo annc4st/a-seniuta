@@ -16,6 +16,16 @@ const myProjects = [
   },
   {
     id: 2,
+    title: "Business event app",
+    description: "Freelance fullstack project using Express.js and React. The authetication is handled with Passport.js (Local Startegy).",
+    tech: ["Express.js", "Passport.js Local Strategy", "PostgreSQL","Vite+React", "Node.JS"],
+    image: "event-app.png",
+    link: "https://business-event-app.netlify.app/",
+    repoLink: "https://github.com/annc4st/business-event-app", 
+  },
+
+  {
+    id: 3,
     title: "Flashcard mobile app",
     description:
       "A full-stack Flashcard revision application. The app is designed to assist students in their studies by allowing them to upload custom questions and answers for revision. The app allows to customize your own study sets according to your needs. The app has responsive design to use on your mobile device.(The project was developed by a team of six Northcoders Bootcamp students)",
@@ -34,7 +44,7 @@ const myProjects = [
     repoLink: "https://github.com/annc4st/flash-cards-fe",
   },
   {
-    id: 3,
+    id: 4,
     title: "NC News",
     description: `A full-stack web application. The back-end was built using Node.js, Express, and PostgreSQL, hosted on Render. The API supports CRUD operations, pagination, filtering, sorting, comment posting and deletion, and vote increment or decrement.
     The front-end is built with React and HTML/CSS, hosted on Netlify. The web application allows users to log in, filter articles by topic, and sort them by comment count, date, or likes in ascending or descending order, adding and deleting own comments`,
