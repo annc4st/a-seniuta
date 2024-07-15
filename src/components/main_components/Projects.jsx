@@ -1,8 +1,8 @@
+import React, { useState } from "react";
 import ProjectTemplate from "./ProjectTemplate";
 import SectionTitle from "./SectionTitle";
-import { FaArrowCircleLeft } from "react-icons/fa";
-import { FaArrowCircleRight } from "react-icons/fa";
-import { useState } from "react";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+
 
 const myProjects = [
   {
@@ -46,8 +46,8 @@ const myProjects = [
   {
     id: 4,
     title: "NC News",
-    description: `A full-stack web application. The back-end was built using Node.js, Express, and PostgreSQL, hosted on Render. The API supports CRUD operations, pagination, filtering, sorting, comment posting and deletion, and vote increment or decrement.
-    The front-end is built with React and HTML/CSS, hosted on Netlify. The web application allows users to log in, filter articles by topic, and sort them by comment count, date, or likes in ascending or descending order, adding and deleting own comments`,
+    description: `A full-stack web application. The API supports CRUD operations, pagination, filtering, sorting, comment posting and deletion, and vote increment or decrement.
+   The web application allows users to log in, filter articles by topic, and sort them by comment count, date, or likes in ascending or descending order, adding and deleting own comments`,
     tech: [
       "Node.JS",
       "Express.js",
@@ -114,19 +114,26 @@ const Projects = () => {
   let [current, setCurrent] = useState(0);
 
   let previousSlide = () => {
-      if (current ===0) setCurrent(myProjects.length - 1);
-      else setCurrent(current-1)
+    setCurrent(current === 0 ? myProjects.length - 1 : current - 1);
     };
 
  let nextSlide = () => {
-    if (current ===myProjects.length-1) setCurrent(0);
-    else setCurrent(current+1)
+  setCurrent(current === myProjects.length - 1 ? 0 : current + 1);
   };
 
   return (
     <div id="projects" className="justify-center items-center mt-12 mb-16">
-    {/* TITLE component */}
+
      <SectionTitle title="My Projects" />
+
+     <div className="flex justify-center mb-4">
+     <button onClick={previousSlide} className="mx-2">
+              <FaArrowCircleLeft />
+            </button>
+            <button onClick={nextSlide} className="mx-2">
+              <FaArrowCircleRight />
+            </button>
+       </div>
 
         <div className="overflow-hidden relative">
           <div
@@ -145,24 +152,15 @@ const Projects = () => {
                       ? 'opacity-100 transition-opacity'
                       : 'opacity-0 pointer-events-none transition-opacity'
                   }`}
+                  style={index === current ? { pointerEvents: 'auto' } : { pointerEvents: 'none' }}
                 >
             <ProjectTemplate project={project} />
           </div>
         </div>
       ))}
       </div>
-      {/* Buttons */}
-      <div className="absolute top-0 h-full w-full flex justify-between items-center px-5 text-3xl">
-            <button onClick={previousSlide}>
-              <FaArrowCircleLeft />
-            </button>
-            <button onClick={nextSlide}>
-              <FaArrowCircleRight />
-            </button>
-          </div>
-      </div>
+      </div> 
 </div>  
-         
   );
 };
 
