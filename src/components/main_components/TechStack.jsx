@@ -11,10 +11,10 @@ const technologies = [
     'React Native',
     'Tailwind CSS',
     'Express.js',
-    // 'Next.js',
+    'Next.js',
     'Git',
     'GitHub',
-    // 'GitHub Actions',
+    'GitHub Actions',
     'Docker',
     'Jest',
     'Supertest',
@@ -25,7 +25,10 @@ const technologies = [
     'Figma',
     'Python', 
     'Django',
-    'Vue.js'
+    'C# fundamentals',
+    'Blazor',
+    'Bootstrap'
+    // 'Vue.js'
   ];
 const TechStack = () => {
     return (

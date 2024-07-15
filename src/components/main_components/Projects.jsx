@@ -9,7 +9,7 @@ const myProjects = [
     id: 1,
     title: "Portfolio",
     description: "This is this portfolio web page. It is built using Vite.js, React, Tailwind CSS, some features (project card) were created using Bootstrap React components. This web page is the first version of my portfolio, so other projects and features may be added in the future.",
-    tech: ["Vite.js", "React", "Node.JS", "Bootstrap", "Tailwind"],
+    tech: ["ViteJS", "React", "NodeJS", "Bootstrap", "Tailwind", 'GitHub Actions'],
     image: "pf-page.png",
     link: "",
     repoLink: "https://github.com/annc4st/a-seniuta",
@@ -63,6 +63,40 @@ const myProjects = [
     link: "https://annas-nc-news.netlify.app/",
     repoLink: "https://github.com/annc4st/fe-nc-news",
   },
+  {
+    id: 5,
+    title: "Helpdesk",
+    description: `This web application is built with NextJS version 13, which uses new app router and server components.
+     The app allows users to create tickets and view them. I plan to expand the app by connecting the database and adding auth functionality`,
+    tech: [
+      "NodeJS",
+      "NextJS",
+      "React",
+      "CSS",
+      "HTML",
+      "Tailwind",
+      "Json Server"
+    ],
+    image: "helpdesk-nextjs.png",
+    link: "",
+    repoLink: "https://github.com/annc4st/-nextjs-helpdesk",
+  },
+  {
+    id: 6,
+    title: "TodoList and Finance Logger",
+    description: `This is final project for the C# Fundamentals Course. The application is built with Blazor and .NET 8. 
+    I created 2 apps Todolist and Finance Logger and connected to the single database sqlite 3, creating a table for each class. `,
+    tech: [
+      "C#", ".NET 8", "Bootsrap 5",
+      "CSS", "HTML", "Sqlite3",
+      "Microsoft Entity Framework",
+      
+    ],
+    image: "todolist-c-sharp.png",
+    link: "",
+    repoLink: "https://github.com/annc4st/cSharp-Fundamentals-project",
+  },
+
   //   {
   //     id: 4,
   //     title: 'Library',
@@ -79,10 +113,10 @@ const myProjects = [
 const Projects = () => {
   let [current, setCurrent] = useState(0);
 
-let previousSlide = () => {
-    if (current ===0) setCurrent(myProjects.length - 1);
-    else setCurrent(current-1)
-   };
+  let previousSlide = () => {
+      if (current ===0) setCurrent(myProjects.length - 1);
+      else setCurrent(current-1)
+    };
 
  let nextSlide = () => {
     if (current ===myProjects.length-1) setCurrent(0);
@@ -135,24 +169,3 @@ let previousSlide = () => {
 export default Projects;
 
 
-// JUST CARDS
-// const Projects = () => {
-//   return (
-//     <>
-//       <div id="projects" className="flex flex-col justify-center items-center mb-16">
-//         <h2 className="text-3xl font-medium mx-auto text-center">
-//           My Projects
-//         </h2>
-
-//         <div
-//           className="grid grid-cols-1 gap-4 mt-10 lg:grid-cols-2"
-//         >
-//           {myProjects.map((project) => (
-//             <ProjectTemplate key={project.id} project={project} />
-//           ))}
-//         </div>
-//       </div>
-
-//     </>
-//   );
-// };
