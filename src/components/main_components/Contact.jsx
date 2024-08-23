@@ -10,7 +10,7 @@ const Contact = () => {
       <SectionTitle title="Contact Me" />
       <p className="leading-relaxed mb-5">
           Thank you for taking the time to look over my portfolio website. <br/>
-          Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the form or email above.<br />
+          Should you have any questions or would like to discuss any of my projects further, please don't hesitate to contact me using the phone or email.<br />
     
           </p>
 

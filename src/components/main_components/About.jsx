@@ -65,12 +65,12 @@ const About = () => {
               </p>
               <p className="mb-2"> 
               My prior professional experience spans across the fields of e-commerce, tax inspection, and accounting. 
-                In addition to my full-time role at Booking.com, I have been studying in the evenings and completed a few courses in coding, which later enabled me to continue with Northcoders software engineering bootcamp.
+                In addition to my full-time role at Booking.com, I have been studying in the evenings and completed a few courses in coding (Python, JS), which later enabled me to continue with Northcoders software engineering bootcamp.
                 </p>
                 <p>
-                As I learnt more about the world of software, I was inspired to make a transition to become an engineer. 
+                As I learnt more about the world of software, I was inspired to make a transition to become a web developer. 
                 Now, having completed the Northcoders bootcamp, and working as a volunteer fullstack developer I have broadened my technical skills and have a range of projects. 
-                I am seeking a role that can progress my skill set in both JavaScript and Python programming.
+                My aspiration is to secure a role as a junior software engineer and to work with real-world projects. 
                 </p>
             </article>
             {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}

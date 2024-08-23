@@ -14,13 +14,14 @@ const myProjects = [
     link: "",
     repoLink: "https://github.com/annc4st/a-seniuta",
   },
+  
   {
     id: 2,
     title: "Business event app",
-    description: "Freelance fullstack project using Express.js and React. The authetication is handled with Passport.js (Local Startegy).",
+    description: "Freelance fullstack project using Express.js and React. The authetication is handled with Passport.js (Local Startegy). For the convenience users can add events to their google calendar.",
     tech: ["Express.js", "Passport.js Local Strategy", "PostgreSQL","Vite+React", "Node.JS"],
     image: "event-app.png",
-    link: "https://business-event-app.netlify.app/",
+    link: "",
     repoLink: "https://github.com/annc4st/business-event-app", 
   },
 
@@ -96,16 +97,23 @@ const myProjects = [
     link: "",
     repoLink: "https://github.com/annc4st/cSharp-Fundamentals-project",
   },
+ {
+  id: 6,
+    title: "Gym Swim Workouts",
+    description: `The backend and frontend of this mini app are deployed with netlify service.
+     The backend utilises netlify functions and frontend communicates smoothly with the backend. Thanks to this user authorization is working well. I plan to add more to this mini project and to store there my workouts.`,
+    tech: [
+      "Node.JS", "Express.js",
+      "MongoDB",
+      "React", "CSS",
+      "HTML", "JSONWebToken",
+     "Netlify Functions", "Netlify Client"
+    ],
+    image: "workouts-app.png",
+    link: "https://gymswimworkouts.netlify.app/",
+    repoLink: "https://github.com/annc4st/exerciselogger-netlify"
 
-  //   {
-  //     id: 4,
-  //     title: 'Library',
-  //     description: 'A full-stack application. The back-end was built using Django, PostgreSQL. The front-end is built with React and HTML/CSS.',
-  //     tech: ['Django', 'PostgreSQL', 'React', 'CSS', 'HTML'],
-  //     image: '../assets/project_pics/space_holder.png',
-  //     link: '',
-  //     repoLink: '',
-  //   }
+ }
 ];
 
 
