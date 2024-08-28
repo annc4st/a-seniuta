@@ -14,9 +14,26 @@ const myProjects = [
     link: "",
     repoLink: "https://github.com/annc4st/a-seniuta",
   },
-  
   {
     id: 2,
+      title: "Gym Swim Workouts",
+      description: `The backend and frontend of this mini app are deployed with netlify service.
+       The backend utilises netlify functions and frontend communicates smoothly with the backend. Thanks to this user authorization is working well. I plan to add more to this mini project and to store there my workouts.`,
+      tech: [
+        "Node.JS", "Express.js",
+        "MongoDB",
+        "React", "CSS",
+        "HTML", "JSONWebToken",
+       "Netlify Functions", "Netlify Client"
+      ],
+      image: "workouts-app.png",
+      link: "https://gymswimworkouts.netlify.app/",
+      repoLink: "https://github.com/annc4st/exerciselogger-netlify"
+  
+   },
+  
+  {
+    id: 3,
     title: "Business event app",
     description: "Freelance fullstack project using Express.js and React. The authetication is handled with Passport.js (Local Startegy). For the convenience users can add events to their google calendar.",
     tech: ["Express.js", "Passport.js Local Strategy", "PostgreSQL","Vite+React", "Node.JS"],
@@ -26,7 +43,7 @@ const myProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Flashcard mobile app",
     description:
       "A full-stack Flashcard revision application. The app is designed to assist students in their studies by allowing them to upload custom questions and answers for revision. The app allows to customize your own study sets according to your needs. The app has responsive design to use on your mobile device.(The project was developed by a team of six Northcoders Bootcamp students)",
@@ -45,7 +62,7 @@ const myProjects = [
     repoLink: "https://github.com/annc4st/flash-cards-fe",
   },
   {
-    id: 4,
+    id: 5,
     title: "NC News",
     description: `A full-stack web application. The API supports CRUD operations, pagination, filtering, sorting, comment posting and deletion, and vote increment or decrement.
    The web application allows users to log in, filter articles by topic, and sort them by comment count, date, or likes in ascending or descending order, adding and deleting own comments`,
@@ -65,7 +82,7 @@ const myProjects = [
     repoLink: "https://github.com/annc4st/fe-nc-news",
   },
   {
-    id: 5,
+    id: 6,
     title: "Helpdesk",
     description: `This web application is built with NextJS version 13, which uses new app router and server components.
      The app allows users to create tickets and view them. I plan to expand the app by connecting the database and adding auth functionality`,
@@ -83,7 +100,7 @@ const myProjects = [
     repoLink: "https://github.com/annc4st/-nextjs-helpdesk",
   },
   {
-    id: 6,
+    id: 7,
     title: "TodoList and Finance Logger",
     description: `This is final project for the C# Fundamentals Course. The application is built with Blazor and .NET 8. 
     I created 2 apps Todolist and Finance Logger and connected to the single database sqlite 3, creating a table for each class. `,
@@ -96,24 +113,8 @@ const myProjects = [
     image: "todolist-c-sharp.png",
     link: "",
     repoLink: "https://github.com/annc4st/cSharp-Fundamentals-project",
-  },
- {
-  id: 6,
-    title: "Gym Swim Workouts",
-    description: `The backend and frontend of this mini app are deployed with netlify service.
-     The backend utilises netlify functions and frontend communicates smoothly with the backend. Thanks to this user authorization is working well. I plan to add more to this mini project and to store there my workouts.`,
-    tech: [
-      "Node.JS", "Express.js",
-      "MongoDB",
-      "React", "CSS",
-      "HTML", "JSONWebToken",
-     "Netlify Functions", "Netlify Client"
-    ],
-    image: "workouts-app.png",
-    link: "https://gymswimworkouts.netlify.app/",
-    repoLink: "https://github.com/annc4st/exerciselogger-netlify"
-
- }
+  }
+ 
 ];
 
 
