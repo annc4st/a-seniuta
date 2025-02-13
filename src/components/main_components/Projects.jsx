@@ -99,21 +99,7 @@ const myProjects = [
     link: "",
     repoLink: "https://github.com/annc4st/-nextjs-helpdesk",
   },
-  {
-    id: 7,
-    title: "TodoList and Finance Logger",
-    description: `This is final project for the C# Fundamentals Course. The application is built with Blazor and .NET 8. 
-    I created 2 apps Todolist and Finance Logger and connected to the single database sqlite 3, creating a table for each class. `,
-    tech: [
-      "C#", ".NET 8", "Bootsrap 5",
-      "CSS", "HTML", "Sqlite3",
-      "Microsoft Entity Framework",
-      
-    ],
-    image: "todolist-c-sharp.png",
-    link: "",
-    repoLink: "https://github.com/annc4st/cSharp-Fundamentals-project",
-  }
+  
  
 ];
 

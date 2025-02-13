@@ -18,17 +18,18 @@ const technologies = [
     'Docker',
     'Jest',
     'Supertest',
-    'PostgreSQL',
-    'MongoDB',
+    'PostgreSQL', 'MSSQL Server', 'MongoDB',
+    'Prisma', 'Sequelize',
     'RESTful APIs',
     'Jira',
     'Figma',
     'Python', 
     'Django',
-    'C# fundamentals',
+    'C# .NET',
     'Blazor',
-    'Bootstrap'
-    // 'Vue.js'
+    'Bootstrap',
+
+   
   ];
 const TechStack = () => {
     return (

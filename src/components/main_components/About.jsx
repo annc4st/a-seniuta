@@ -61,16 +61,7 @@ const About = () => {
             <p className="mb-2">
                 Hi, I am Anna! </p>
                 <p className="mb-2">
-                Holding an academic background in Economics I have always had an interest in coding and technical projects. 
-              </p>
-              <p className="mb-2"> 
-              My prior professional experience spans across the fields of e-commerce, tax inspection, and accounting. 
-                In addition to my full-time role at Booking.com, I have been studying in the evenings and completed a few courses in coding (Python, JS), which later enabled me to continue with Northcoders software engineering bootcamp.
-                </p>
-                <p>
-                As I learnt more about the world of software, I was inspired to make a transition to become a web developer. 
-                Now, having completed the Northcoders bootcamp, and working as a volunteer fullstack developer I have broadened my technical skills and have a range of projects. 
-                My aspiration is to secure a role as a junior software engineer and to work with real-world projects. 
+                  A dedicated software developer with expertise in JavaScript, .NET, Python, and modern web technologies. Transitioning from a successful career in sales and project management, I bring strong problem-solving skills, adaptability, and a keen eye for optimizing user experiences. A Northcoders bootcamp graduate with hands-on experience in React, Express.js, Django, Blazor, and SQL. Passionate about building scalable applications and collaborating in Agile teams.
                 </p>
             </article>
             {/* <hr className="w-1/2 h-1 my-8 bg-slate-500 rounded dark:bg-slate-50"/> */}
