@@ -19,7 +19,7 @@ const technologies = [
     'Jest',
     'Supertest',
     'PostgreSQL', 'MSSQL Server', 'MongoDB',
-    'Prisma', 'Sequelize',
+    'Prisma ORM', 'Sequelize',
     'RESTful APIs',
     'Jira',
     'Figma',

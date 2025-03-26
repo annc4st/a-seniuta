@@ -35,10 +35,12 @@ const myProjects = [
   {
     id: 3,
     title: "Business event app",
-    description: "Freelance fullstack project using Express.js and React. The authetication is handled with Passport.js (Local Startegy). For the convenience users can add events to their google calendar.",
-    tech: ["Express.js", "Passport.js Local Strategy", "PostgreSQL","Vite+React", "Node.JS"],
+    description: "Freelance fullstack project using Express.js and React. The authetication is handled with JWT. For the convenience users can add events to their google calendar.",
+    tech: ["Express.js", "JSONWebToken", "PostgreSQL","Vite+React", "Node.JS",  "Jest",
+      "Supertest",
+      "TDD",],
     image: "event-app.png",
-    link: "",
+    link: "https://eventapp-ng2b.onrender.com",
     repoLink: "https://github.com/annc4st/business-event-app", 
   },
 
@@ -63,6 +65,26 @@ const myProjects = [
   },
   {
     id: 5,
+    title: "Plan2Meet",
+    description: `This is the most recent coding project - a full-stack web application, 
+    that would enable people to create and sign up for events, create small groups and plan outdoors activities. 
+    Using Prisma ORM allows to scale and improve backend code easily. 
+    Redux is used to manage state`,
+    tech: [
+      "Typescript",
+      "Express.ts",
+      "PostgreSQL", "Prisma ORM", 
+      "React TS",
+      "Redux", "JWT auth", "Material UI",
+    ],
+    image: " ",
+    link: "",
+    repoLink: "https://github.com/annc4st/eventapp-ts",
+
+  },
+
+  {
+    id: 6,
     title: "NC News",
     description: `A full-stack web application. The API supports CRUD operations, pagination, filtering, sorting, comment posting and deletion, and vote increment or decrement.
    The web application allows users to log in, filter articles by topic, and sort them by comment count, date, or likes in ascending or descending order, adding and deleting own comments`,
@@ -78,26 +100,20 @@ const myProjects = [
       "TDD",
     ],
     image: "nc-news-page.png",
-    link: "https://annas-nc-news.netlify.app/",
+    link: "",
     repoLink: "https://github.com/annc4st/fe-nc-news",
   },
   {
-    id: 6,
-    title: "Helpdesk",
-    description: `This web application is built with NextJS version 13, which uses new app router and server components.
-     The app allows users to create tickets and view them. I plan to expand the app by connecting the database and adding auth functionality`,
+    id: 7,
+    title: "Heroes",
+    description: `A full-stack .NET Web API and Blazor front-end web application honoring heroes of the
+Russian-Ukrainian war. Working as a volunteer I implemented database integration using Entity Framework, interactive UI components`,
     tech: [
-      "NodeJS",
-      "NextJS",
-      "React",
-      "CSS",
-      "HTML",
-      "Tailwind",
-      "Json Server"
+      "C# / .NET 9", "MudBlazor", "Entity Framework", 
     ],
-    image: "helpdesk-nextjs.png",
+    image: " ",
     link: "",
-    repoLink: "https://github.com/annc4st/-nextjs-helpdesk",
+    repoLink: "link available upon request",
   },
   
  
